@@ -10,7 +10,7 @@
 6. Finally, the schools are sectioned off into District or Charter schools in order to determine if the type of school and all that it entails, has any meaningful effect on average math and reading scores. 
 
 ## Results
-### How is the district summary affected?
+##### How is the district summary affected?
 - Originally, the school district had an average math score of 79.0%, this dropped to 78.9% once the scores from the ninth grade at Thomas High School were removed.
 - The average reading score remained unaffected by the removal of the questionable data from Thomas High School, remaining at 81.9% through the whole district. 
 - There was a drop in the percentage of students passing math, reading as well as both combined, with the minimum passing grade being 70%. 
@@ -24,7 +24,7 @@
 ![district summary_Challenge](https://github.com/asadca4u/School-District-Analysis/blob/master/resources/readme%20images_all/District%20Summary_Challenge.png)
 ###### (Summary of the District after removing the data from the ninth grade at Thomas High School)
 
-### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools? How is the school summary affected overall?
+##### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools? How is the school summary affected overall?
 - Since only the data for Thomas High School was altered, it will be the only one affected, hence the last 5 schools by alphabetical order are shown in the images below.
 - The average math score among the whole school dropped slightly from 83.42% to 83.35%.
 - The average reading score among the whole school went up slightly from 83.84% to 83.90%.
@@ -38,16 +38,56 @@
 ###### (Summary of Each School after removing data from the ninth grade at Thomas High School)
 
 
-### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-
-
-
 ### How does replacing the ninth-grade scores affect the following:
 ##### Math and reading scores by grade
+- Math and Reading scores are identical across all rows and columns except for the 9th grade at Thomas Highschool after the data is removed, this returns a NaN value (not a number). 
+
+![Math Scores by Grade_OG](https://github.com/asadca4u/School-District-Analysis/blob/master/resources/readme%20images_all/Math%20Scores%20by%20Grade_OG.png) 
+###### (Math Scores by Grade)
+![Math Scores by Grade_Challenge](https://github.com/asadca4u/School-District-Analysis/blob/master/resources/readme%20images_all/Math%20Scores%20by%20Grade_Challenge.png)
+###### (Math Scores by Grade after removing data from the ninth grade at Thomas High School)
+![Reading Scores by Grade_OG](https://github.com/asadca4u/School-District-Analysis/blob/master/resources/readme%20images_all/Reading%20Scores%20by%20Grade_OG.png) 
+###### (Reading Scores by Grade)
+![Reading Scores by Grade_Challenge](https://github.com/asadca4u/School-District-Analysis/blob/master/resources/readme%20images_all/Reading%20Scores%20by%20Grade_Challenge.png)
+###### (Reading Scores by Grade after removing data from the ninth grade at Thomas High School)
+
+
 ##### Scores by school spending
+- The average math score and average reading scores remained consistent across both tables.
+- However, the proportion of students who are passing math, reading and both overall decreased for the $630 - $644 range, which is where Thomas High School's average spending per student was contained. 
+  - The proportion of students passing math in the $630 - $644 range dropped from 73% to 67%. 
+  - The proportion of students passing reading dropped from 84% to 77%.
+  - The proportion of students passing both math and reading combined dropped from 63% to 56%. 
+
+![Scores by School Spending_OG](https://github.com/asadca4u/School-District-Analysis/blob/master/resources/readme%20images_all/Scores%20by%20School%20Spending_OG.png)
+###### (Math and Reading scores based on the amount spent per student)
+![Scores by School Spending_Challenge](https://github.com/asadca4u/School-District-Analysis/blob/master/resources/readme%20images_all/Scores%20by%20School%20Spending_Challenge.png)
+###### (Math and Reading scores based on the amount spent per student after removing the 9th grade data from Thomas High School)
+
+
 ##### Scores by school size
+- The average math and reading scores remained consistent across the data. 
+- However, the proportion of students who are passing math, reading and both overall decreased for the medium sized schools (1000-2000 students), which is where Thomas High School can be placed. 
+  - The proportion of students passing math in the medium range dropped from 94% to 88%.
+  - The proportion of students passing reading dropped from 97% to 91%.
+  - The proportion of students passing both math and reading combined dropped from 91% to 85%.
+
+![Scores by School Size_OG](https://github.com/asadca4u/School-District-Analysis/blob/master/resources/readme%20images_all/Scores%20by%20School%20Size_OG.png)
+###### (Math and Reading scores based on the size of the student body at each high school)
+![Scores by School Size_Challenge](https://github.com/asadca4u/School-District-Analysis/blob/master/resources/readme%20images_all/Scores%20by%20School%20Size_Challenge.png)
+###### (Math and Reading scores based on the size of the student body at each high school after removing 9th grade data from Thomas High School)
+
+
 ##### Scores by school type
+- The average math and reading scores remained consistent across the data.
+- Since Thomas High School was a charter school, the data for charter schools is affected, while data for district schools remains untouched. 
+  - The proportion of students passing math in charter schools dropped from 94% to 90%.
+  - The proportion of students passing reading in charter schools dropped from 97% to 93%. 
+  - The proportion of students passing both math and reading combined dropped from 90% to 87%. 
 
-
+![Scores by School Type_OG](https://github.com/asadca4u/School-District-Analysis/blob/master/resources/readme%20images_all/Scores%20by%20School%20Type_OG.png)
+###### (Math and Reading scores based on the school type)
+![Scores by School Type_Challenge](https://github.com/asadca4u/School-District-Analysis/blob/master/resources/readme%20images_all/Scores%20by%20School%20Type_Challenge.png)
+###### (Math and Reading scores based on the school type after removing 9th grade data from Thomas High School)
 
 # Summary: Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
