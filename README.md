@@ -93,8 +93,8 @@
 ### Summary: Summarize four major changes in the updated school district analysis
 - Math and Reading scores were generally unaltered by the removal of 9th grade scores from Thomas High School, as there was 461 students in that category, out of a 39,170 students in the entire district, representing just 1.18% of the students. As a result, there was a negigible effect on the means of math and reading scores on a district wide level. 
 - However, the proportion of students passing both math and reading overall, when taken as a function of the following, decreased significantly. 
-1. School Spending per student saw a decrease in the proportion students passing overall from 63% to 56%, in the $630 to $644 range, where Thomas High School can be found.
-2. Student body size per school saw a decrease in the proportion of students passing overall from 91% to 85% in the medium sized school range, where Thomas High School can be found. 
-3. Type of school saw a decrease in the proprotion of students passing overall from 90% to 87% in the charter school category, which is where Thomas High School can be found. 
+  1. School Spending per student saw a decrease in the proportion students passing overall from 63% to 56%, in the $630 to $644 range, where Thomas High School can be found.
+  2. Student body size per school saw a decrease in the proportion of students passing overall from 91% to 85% in the medium sized school range, where Thomas High School can be found. 
+  3. Type of school saw a decrease in the proprotion of students passing overall from 90% to 87% in the charter school category, which is where Thomas High School can be found. 
 
 
