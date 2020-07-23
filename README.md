@@ -38,7 +38,7 @@
 ###### (Summary of Each School after removing data from the ninth grade at Thomas High School)
 
 
-### How does replacing the ninth-grade scores affect the following:
+#### How does replacing the ninth-grade scores affect the following:
 ##### Math and reading scores by grade
 - Math and Reading scores are identical across all rows and columns except for the 9th grade at Thomas Highschool after the data is removed, this returns a NaN value (not a number). 
 
@@ -90,4 +90,11 @@
 ![Scores by School Type_Challenge](https://github.com/asadca4u/School-District-Analysis/blob/master/resources/readme%20images_all/Scores%20by%20School%20Type_Challenge.png)
 ###### (Math and Reading scores based on the school type after removing 9th grade data from Thomas High School)
 
-# Summary: Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+### Summary: Summarize four major changes in the updated school district analysis
+##### Math and Reading scores were generally unaltered by the removal of 9th grade scores from Thomas High School, as there was 461 students in that category, out of a 39,170 students in the entire district, representing just 1.18% of the students. As a result, there was a negigible effect on the means of math and reading scores on a district wide level. 
+##### However, the proportion of students passing both math and reading overall, when taken as a function of the following, decreased significantly. 
+1. School Spending per student saw a decrease in the proportion students passing overall from 63% to 56%, in the $630 to $644 range, where Thomas High School can be found.
+2. Student body size per school saw a decrease in the proportion of students passing overall from 91% to 85% in the medium sized school range, where Thomas High School can be found. 
+3. Type of school saw a decrease in the proprotion of students passing overall from 90% to 87% in the charter school category, which is where Thomas High School can be found. 
+
+
